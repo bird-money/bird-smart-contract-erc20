@@ -1,0 +1,21 @@
+
+https://stackoverflow.com/questions/29776439/username-and-password-in-command-for-git-push
+git push https://YOUR_GIT_USERNAME@github.com/YOUR_GIT_USERNAME/yourGitFileName.git
+
+
+git remote add origin https://github.com/bird-money/bird-smart-contract-erc20.git
+
+
+
+
+
+TO PUSH
+
+git push https://birdcarer@github.com/bird-money/bird-smart-contract-erc20.git
+
+
+
+If you want to use special settings only when working in a certain repository, you can simply omit the --global flag. This makes the configuration valid only in that repository:
+
+$ git config user.name "birdcarer"
+$ git config user.email "admin@bird.money"
