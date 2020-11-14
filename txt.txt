@@ -19,3 +19,18 @@ If you want to use special settings only when working in a certain repository, y
 
 $ git config user.name "birdcarer"
 $ git config user.email "admin@bird.money"
+
+
+
+
+-- Remove the history from 
+rm -rf .git
+
+-- recreate the repos from the current content only
+git init
+git add .
+git commit -m "Initial commit"
+
+-- push to the github remote repos ensuring you overwrite history
+git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
+git push -u --force origin master
